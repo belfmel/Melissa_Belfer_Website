@@ -1,0 +1,218 @@
+#portfolio{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    width: 100%;
+    height: auto;
+}
+
+.portfolio-title{
+    padding: 8% 8% 2% 15%;
+    text-transform: uppercase;
+}
+
+.portfolio-block{
+    padding: 8% 20% 55% 10%;
+}
+
+.myPortfolio{
+    border: #7f7f7f 1px solid;
+    box-shadow: 1px 1px 5px #cecece;
+    float: left;
+    width: 292px;
+    height: 250px;
+    margin-left: 10%;
+    margin-bottom: 10%;
+}
+
+#portfolio_wake{
+    background-image: url("../imgs/Portfolio/preview_wakeboarding.png");
+}
+
+#portfolio_3DModel{
+    background-image: url("../imgs/Portfolio/preview_3DModel.png");
+}
+
+#portfolio_wow{
+    background-image: url("../imgs/Portfolio/preview_wowGraphic.png");
+}
+
+#portfolio_hotAirBalloon{
+    background-image: url("../imgs/Portfolio/preview_hotAirBalloon.png");
+}
+
+.previewImg{
+    background-color: white;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 290px;
+    height: 150px;
+    padding: 0;
+}
+
+.myPortfolio p{
+    font-weight: 200;
+    margin-top: 5%;
+    padding-left: 5%;
+}
+
+hr{
+    margin-bottom: 1rem;
+}
+
+.icon{
+    height: 15px;
+    float: right;
+    padding-right: 10px;
+}
+
+.icon:hover{
+    cursor: pointer;
+}
+/*===================== 3D Model of House ===================== */
+
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption-3DModel {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px; 
+}
+
+/*===================== Wahines of the Waves ===================== */
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption-wow {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+
+/*===================== Hot Air Balloon Video ===================== */
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption-hotAirBalloon {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/*===================== All Modals ===================== */
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default --> changes to block*/
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: none; /* No scrolling */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+/* Modal Content (Image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 500px;
+}
+
+#house3DModel{
+    max-width: 900px;
+}
+
+#reMaxVideo{
+    max-width: 800px;
+}
+
+/* Add Animation */
+.modal-content, #caption-wow, #caption-3DModel,
+#caption-hotAirBalloon{    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 75px;
+    right: 75px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+/* Media Queries */
+
+@media screen and (max-width: 1110px) {
+    .portfolio-block{
+        padding: 8% 5% 55% 5%;
+        height: 800px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .portfolio-block{
+        padding: 2% 2% 5% 2%;
+        height: 1250px;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    .portfolio-block{
+        padding: 8% 5% 55% 5%;
+        height: 1250px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .portfolio-block{
+        padding: 8% 5% 55% 5%;
+        height: 1250px;
+    }
+}

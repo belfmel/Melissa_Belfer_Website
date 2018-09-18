@@ -1,0 +1,62 @@
+#about{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    width: 100%;
+    height: auto;
+}
+
+.about-block{
+    padding: 10% 8% 10% 15%;
+    float: left;
+    max-width: 60%;
+    margin: 0;
+}
+
+#about h1{
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+
+#about p{
+    font-size: 20px;
+}
+
+.about-img{
+    padding: 15% 15% 10% 5%;
+    margin: 0;
+}
+
+.about-headshot{
+    width: 30%;
+    border-radius: 8px;
+}
+
+
+/* Media Queries */
+
+@media screen and (max-width: 1300px) {
+    #about{
+        height: 750px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #about{
+        height: 850px;
+    }
+    
+}
+
+@media screen and (max-width: 700px) {
+    #about{
+        height: 1500px;
+    }
+    
+}
+
+@media screen and (max-width: 500px) {
+    #about{
+        height: 1500px;
+    }
+    
+}

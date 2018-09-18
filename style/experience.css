@@ -1,0 +1,92 @@
+#experience{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    width: 100%;
+}
+
+.experience-title{
+    padding: 8% 5% 2% 15%;
+    text-transform: uppercase;
+}
+
+.experience-block{
+    padding: 8% 10% 5% 11%;
+}
+#experience_idTech{
+    background-image: url("../imgs/Experience/idTech.png");
+    transition: 0.3s;
+}
+#experience_amex{
+    background-image: url("../imgs/Experience/amex.png");
+    transition: 0.3s;
+}
+.experiences{
+    /* border: grey 1px solid; */
+    border-radius: 8px;
+    background-color: white;
+    background-size: 100%;
+    float: none;
+    width: 200px;
+    height: 200px;
+    padding: 2%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    box-shadow: 5px 5px 5px #e7e7e7;
+}
+
+/* #experience_amex:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+#experience_idTech:hover{
+    opacity: 0.7;
+    cursor: pointer;
+} */
+
+.experience-caption{
+    display: none;
+    float: left;
+    position: relative;
+    left: 300px;
+    bottom: 220px;
+}
+
+/* Add Animation */
+
+@media screen{
+    .experience-caption{    
+        /* -webkit-animation-name: slidein;
+        -webkit-animation-duration: 0.6s; */
+        animation-name: slidein;
+        animation-duration: 2s;
+    }
+}
+@keyframes slidein {
+    from{
+        margin-left: 100%;
+        width: 300%;
+    }
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .experience-caption{
+        animation: none;
+    }
+
+    .experience-block{
+        padding: 8% 2% 5% 2%;
+    }
+
+    .experience-caption{
+        display: none;
+        float: left;
+        position: relative;
+        left: 300px;
+        bottom: 220px;
+    }
+}
