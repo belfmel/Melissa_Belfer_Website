@@ -30,3 +30,33 @@
     
 }
 
+
+@media screen and (max-width: 600px) {
+    .home-text{
+        font-size: 70px;
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .home-text{
+        margin-left: 0;
+        padding-left: 0;
+    }
+    .home-img{
+        padding-left: 7%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .home-text{
+        font-size: 50px;
+        text-align: center;
+        margin-left: 0;
+        padding-left: 0;
+    }
+    .home-img{
+        padding-left: 7%;
+    }
+}

@@ -197,8 +197,8 @@ hr{
 
 @media screen and (max-width: 900px) {
     .portfolio-block{
-        padding: 2% 2% 5% 2%;
-        height: 1250px;
+        padding: 15% 0 5% 0;
+        height: 850px;
     }
 }
 
@@ -210,9 +210,15 @@ hr{
     }
 }
 
-@media screen and (max-width: 700px) {
-    .portfolio-block{
-        padding: 8% 5% 55% 5%;
-        height: 1250px;
+@media screen and (max-width: 370px) {
+    .myPortfolio{
+        width: 252px;
+        height: 250px;
+        font-size: 13px;
+  
+    }
+    .previewImg{
+        width: 250px;
+        height: 150px;
     }
 }

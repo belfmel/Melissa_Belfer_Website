@@ -90,3 +90,33 @@
         bottom: 220px;
     }
 }
+
+@media screen and (max-width: 500px) {
+    .experience-caption{
+        animation: none;
+        display: none;
+        float: none;
+        position: static;
+        margin: 5% 10% 10% 10%;
+    }
+    .experiences{
+        background-size: 100%;
+        float: none;
+        width: 150px;
+        height: 150px;
+        padding: 2%;
+        margin: 5% 10% 10% 10%;
+
+    }
+    .experience-block{
+        padding: 8% 5% 5% 5%;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    .experiences{
+        width: 110px;
+        height: 110px;
+    }
+}

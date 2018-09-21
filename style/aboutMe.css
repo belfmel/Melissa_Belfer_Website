@@ -49,14 +49,45 @@
 
 @media screen and (max-width: 700px) {
     #about{
-        height: 1500px;
+        height: 1100px;
     }
-    
+    .about-block{
+        padding: 10% 8% 10% 15%;
+        float: none;
+        max-width: 100%;
+        margin: 0;
+    }
+    .about-img{
+        padding: 0;
+        margin: 0;
+    }
+    .about-headshot{
+        width: 50%;
+        border-radius: 8px;
+        align-content: center;
+        margin: 0 15% 0 15%; 
+    }
 }
 
 @media screen and (max-width: 500px) {
     #about{
-        height: 1500px;
+        height: 1100px;
+    }
+    .about-block{
+        padding: 10% 8% 10% 15%;
+        float: none;
+        max-width: 100%;
+        margin: 0;
+    }
+    .about-img{
+        padding: 0;
+        margin: 0;
+    }
+    .about-headshot{
+        width: 50%;
+        border-radius: 8px;
+        align-content: center;
+        margin: 0 15% 0 15%; 
     }
     
 }

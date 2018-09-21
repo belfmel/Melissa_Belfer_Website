@@ -72,3 +72,23 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+/* Collapsed Menu */
+
+.navbar-toggler{
+    float: right;
+    margin-top: 5px;
+}
+
+.navbar-collapse{
+    background-color: #353a3f;
+}
+
+@media screen and (max-width: 576px) {
+    .right{
+        float: none!important;
+    }
+    .navbar-nav{
+        width: 100%;
+    }
+}
