@@ -1,3 +1,3 @@
-# Melissa_Belfer_Website
+# Melissa Belfer Website
 
-This is my personal website
+My Personal website that showcases the projects I have worked on and the experiences I have had.
